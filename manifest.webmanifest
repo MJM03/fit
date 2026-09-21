@@ -1,1 +1,1 @@
-{"name":"Fit Complete Tracker","short_name":"Fit","start_url":"./","display":"standalone","background_color":"#0b0f14","theme_color":"#0b0f14","lang":"es"}
+{"name":"Fit OS Local","short_name":"Fit","id":"./","start_url":"./","scope":"./","display":"standalone","background_color":"#080c11","theme_color":"#080c11","lang":"es","description":"Entrenamiento, nutrición y progreso con almacenamiento local y funcionamiento offline."}
