@@ -1,0 +1,4 @@
+export const FOODS=[
+{name:"Pechuga de pollo",kcal:165,p:31,c:0,f:3.6},{name:"Arroz cocido",kcal:130,p:2.7,c:28,f:.3},{name:"Huevo",kcal:143,p:12.6,c:.7,f:9.5},{name:"Avena",kcal:389,p:16.9,c:66.3,f:6.9},{name:"Papa sancochada",kcal:87,p:1.9,c:20.1,f:.1},{name:"Atún al agua",kcal:116,p:25.5,c:0,f:.8},{name:"Palta",kcal:160,p:2,c:8.5,f:14.7},{name:"Plátano",kcal:89,p:1.1,c:22.8,f:.3},{name:"Leche entera",kcal:61,p:3.2,c:4.8,f:3.3},{name:"Yogur griego natural",kcal:97,p:9,c:3.9,f:5}
+];
+export const EXERCISES=["Press banca","Sentadilla","Peso muerto","Press militar","Remo con barra","Dominadas","Jalón al pecho","Prensa","Peso muerto rumano","Hip thrust","Curl bíceps","Extensión tríceps"];
