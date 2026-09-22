@@ -8,7 +8,7 @@ function syncSettings(){if(data){$('#sWeight').value=data.weight;$('#sFat').valu
 function go(view){$$('.view').forEach(v=>v.classList.toggle('active',v.id===view));$$('nav [data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));if(view==='settingsView')syncSettings();if(view==='trainingView')renderTraining();window.scrollTo(0,0)}
 $$('nav [data-view]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.view)));
 $('#openProfile').addEventListener('click',()=>go('settingsView'));$('.avatar').addEventListener('click',()=>go('settingsView'));
-$('#mobility button').forEach(b=>b.addEventListener('click',()=>{settingActivity=+b.dataset.value;$('#mobility button').forEach(x=>x.classList.toggle('selected',x===b));preview()}));
+document.querySelectorAll('#mobility button').forEach(b=>b.addEventListener('click',()=>{settingActivity=+b.dataset.value;document.querySelectorAll('#mobility button').forEach(x=>x.classList.toggle('selected',x===b));preview()}));
 document.querySelectorAll('#prioritySwitch button').forEach(b=>b.addEventListener('click',()=>{settingPriority=b.dataset.priority;document.querySelectorAll('#prioritySwitch button').forEach(x=>x.classList.toggle('selected',x===b));preview()}));
 document.querySelectorAll('#goalSwitch button').forEach(b=>b.addEventListener('click',()=>{settingGoal=b.dataset.goal;document.querySelectorAll('#goalSwitch button').forEach(x=>x.classList.toggle('selected',x===b));preview()}));
 document.querySelectorAll('#trainingDays button').forEach(b=>b.addEventListener('click',()=>{settingDays=+b.dataset.days;document.querySelectorAll('#trainingDays button').forEach(x=>x.classList.toggle('selected',x===b))}));
