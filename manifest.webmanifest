@@ -1,0 +1,11 @@
+{
+  "name":"FIT Performance",
+  "short_name":"FIT",
+  "description":"Entrenamiento y progreso personal",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#070a0c",
+  "theme_color":"#070a0c",
+  "icons":[]
+}
