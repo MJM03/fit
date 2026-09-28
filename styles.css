@@ -22,3 +22,10 @@
 @media(max-width:390px){.weightLogForm{grid-template-columns:1fr 1fr}.weightLogForm button{grid-column:1/-1}}
 
 .weightChart svg{display:block;width:100%;height:100%;overflow:visible}.chartGrid{stroke:#243036;stroke-width:1}.chartLabel,.chartDate{fill:#738087;font-size:8px;font-family:inherit}.weightLine{fill:none;stroke:var(--lime);stroke-width:3;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}.weightPoint{fill:var(--lime);stroke:#071006;stroke-width:2;vector-effect:non-scaling-stroke}.weightHistory .weightChip{border:0;background:#11191c;border-radius:8px;padding:6px 8px;color:var(--muted);font:inherit;white-space:nowrap}.weightHistory .weightChip b{display:block;color:#fff;font-size:9px}.weightHistory .weightChip span{font-size:8px}
+
+/* v23 stability */
+.resumeWorkout{width:100%;margin:0 0 14px;padding:16px;border:1px solid rgba(183,243,74,.35);border-radius:16px;background:rgba(183,243,74,.08);color:var(--lime);text-align:left}
+.resumeWorkout b,.resumeWorkout span{display:block}.resumeWorkout span{margin-top:4px;color:#aeb8bc;font-size:12px}
+.backupActions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.backupActions button{min-height:44px;border-radius:12px;border:1px solid #263136;background:#11171a;color:#eaf0f2;font-weight:800;font-size:11px}
+.backupActions button:first-child{border-color:rgba(183,243,74,.4);color:var(--lime)}
